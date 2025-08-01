@@ -1,0 +1,19 @@
+{
+  "name": "pull-funds-via-7702-signer-example",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@aa-sdk/core": "^4.52.2",
+    "@account-kit/infra": "^4.52.2",
+    "@account-kit/smart-contracts": "^4.52.2",
+    "@account-kit/wallet-client": "^4.52.2",
+    "viem": "^2.33.2"
+  }
+}
