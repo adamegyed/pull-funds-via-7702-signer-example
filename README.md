@@ -1,10 +1,16 @@
 # pull-funds-via-7702-signer-example
 
+An example of pulling funds from a smart contract account to its signer's address, using EIP-7702 and wallet APIs.
+
+Full script here: [index.ts](./index.ts)
+
 To install dependencies:
 
 ```bash
 bun install
 ```
+
+To set up env vars, copy `.env.example` to `.env` and add a policy ID and API key.
 
 To run:
 
